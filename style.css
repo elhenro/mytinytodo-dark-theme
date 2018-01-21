@@ -2,7 +2,7 @@
 	This file is a part of myTinyTodo. 
 	Copyright 2009-2010 Max Pozdeev <maxpozdeev@gmail.com>
 */
-/* modified by Henrosaurus 14-01-18 */
+
 /*	default style	*/
 
 html { height:100%; overflow-y:scroll; }
@@ -346,7 +346,7 @@ li.mtt-item-hidden { display:none; }
 .mtt-settings-table th, .mtt-settings-table td { border-bottom:1px solid #dedede; padding:8px; vertical-align:top; }
 .mtt-settings-table .form-buttons { border-bottom:none; text-align:center; }
 .mtt-settings-table th { text-align:left; width:210px; padding-left:8px; }
-.mtt-settings-table .descr { font-size:0.8em; font-weight:normal; color:#222; }
+.mtt-settings-table .descr { font-size:0.8em; font-weight:normal; color: #d8d8d8; }
 .mtt-settings-table .in350 { min-width:350px; }
 
 
@@ -354,3 +354,4 @@ a, h1, h2, h3, h4, p, li, ul { color: #b1b4ae; }
 #footer {display: none;}
 #task, #search {background-color: black; color: white; }
 input, textarea {color: #fff !important; border: none; background-color: #141414;}
+tr { color: #b1b4ae; }
